@@ -69,3 +69,14 @@ CREATE TABLE tasks (
 * Designed with scalability in mind
 
 ---
+
+##  My Contribution
+- Designed database schema and relationships  
+- Implemented backend logic for task handling  
+- Focused on workflow design and system structure
+
+  ##  Limitations
+- Currently does not include authentication  
+- UI is minimal and focused on functionality
+
+- This project was built as part of my hands-on learning and internship-level practice.
