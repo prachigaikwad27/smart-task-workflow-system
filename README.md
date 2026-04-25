@@ -41,4 +41,31 @@ This project was developed to understand backend system design, workflow handlin
 
 ---
 
-⭐ Demonstrates practical full-stack development and system design thinking.
+ Demonstrates practical full-stack development and system design thinking.
+
+##  Database Schema
+
+```sql
+CREATE DATABASE task_system;
+
+CREATE TABLE tasks (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    task VARCHAR(255),
+    priority VARCHAR(50),
+    status VARCHAR(50)
+);
+```
+
+##  Workflow Logic
+
+* Task is created with default status = Pending
+* Status can move to → In Progress → Completed
+* Priority helps in task sorting and management
+
+##  System Highlights
+
+* Simulates real-world workflow system
+* Backend handles data persistence using MySQL
+* Designed with scalability in mind
+
+---
